@@ -1,0 +1,945 @@
+[
+  {
+    "name": "Thirty-One Gifts",
+    "is_mlm": 1
+  },
+  {
+    "name": "eSpring",
+    "is_mlm": 1
+  },
+  {
+    "name": "Satinique",
+    "is_mlm": 1
+  },
+  {
+    "name": "ARTISTRY",
+    "is_mlm": 1
+  },
+  {
+    "name": "Legacy of Clean",
+    "is_mlm": 1
+  },
+  {
+    "name": "Glister",
+    "is_mlm": 1
+  },
+  {
+    "name": "Nutriway",
+    "is_mlm": 1
+  },
+  {
+    "name": "Aflac",
+    "is_mlm": 0
+  },
+  {
+    "name": "Sea Girl Pearls",
+    "is_mlm": 1
+  },
+  {
+    "name": "4Life Research",
+    "is_mlm": 1
+  },
+  {
+    "name": "Baebody",
+    "is_mlm": 0
+  },
+  {
+    "name": "JAQX Smart Home Automation",
+    "is_mlm": 1
+  },
+  {
+    "name": "Entre Institute",
+    "is_mlm": 0
+  },
+  {
+    "name": "Herbalife",
+    "is_mlm": 1
+  },
+  {
+    "name": "Cutco",
+    "is_mlm": 1
+  },
+  {
+    "name": "YOR health",
+    "is_mlm": 1
+  },
+  {
+    "name": "Enagic",
+    "is_mlm": 1
+  },
+  {
+    "name": "Melilea International",
+    "is_mlm": 1
+  },
+  {
+    "name": "Immunotec",
+    "is_mlm": 1
+  },
+  {
+    "name": "Corvive",
+    "is_mlm": 1
+  },
+  {
+    "name": "Primerica",
+    "is_mlm": 1
+  },
+  {
+    "name": "Blue Lotus",
+    "is_mlm": 1
+  },
+  {
+    "name": "Color Street",
+    "is_mlm": 1
+  },
+  {
+    "name": "Stylewe",
+    "is_mlm": 0
+  },
+  {
+    "name": "New Acquisitions",
+    "is_mlm": 0
+  },
+  {
+    "name": "Q Sciences",
+    "is_mlm": 1
+  },
+  {
+    "name": "Cash4gold",
+    "is_mlm": 0
+  },
+  {
+    "name": "Cydcor",
+    "is_mlm": 1
+  },
+  {
+    "name": "Prudential Financial",
+    "is_mlm": 0
+  },
+  {
+    "name": "Nutrisystem",
+    "is_mlm": 0
+  },
+  {
+    "name": "XS Energy",
+    "is_mlm": 1
+  },
+  {
+    "name": "Fenty Beauty",
+    "is_mlm": 0
+  },
+  {
+    "name": "MojiLife",
+    "is_mlm": 1
+  },
+  {
+    "name": "Wealth Generators",
+    "is_mlm": 1
+  },
+  {
+    "name": "Mountain Top Boutique",
+    "is_mlm": 0
+  },
+  {
+    "name": "Tianshi International",
+    "is_mlm": 0
+  },
+  {
+    "name": "Mammoth Marketing",
+    "is_mlm": 1
+  },
+  {
+    "name": "Barbizon Modeling",
+    "is_mlm": 0
+  },
+  {
+    "name": "Live Free LTD",
+    "is_mlm": 1
+  },
+  {
+    "name": "FM World",
+    "is_mlm": 1
+  },
+  {
+    "name": "Yeti",
+    "is_mlm": 0
+  },
+  {
+    "name": "ProAqua Vacuums",
+    "is_mlm": 0
+  },
+  {
+    "name": "Cashback World",
+    "is_mlm": 0
+  },
+  {
+    "name": "Glister",
+    "is_mlm": 1
+  },
+  {
+    "name": "ATC Coin",
+    "is_mlm": 1
+  },
+  {
+    "name": "Perfectly Posh",
+    "is_mlm": 1
+  },
+  {
+    "name": "Safe Shop",
+    "is_mlm": 1
+  },
+  {
+    "name": "Tropic Skincare",
+    "is_mlm": 1
+  },
+  {
+    "name": "Kate Spade New York",
+    "is_mlm": 0
+  },
+  {
+    "name": "Neways International",
+    "is_mlm": 1
+  },
+  {
+    "name": "LimeLife by Alcone",
+    "is_mlm": 1
+  },
+  {
+    "name": "Forever Living",
+    "is_mlm": 1
+  },
+  {
+    "name": "Keller Williams",
+    "is_mlm": 0
+  },
+  {
+    "name": "Yves Rocher",
+    "is_mlm": 0
+  },
+  {
+    "name": "Motor Club of America",
+    "is_mlm": 1
+  },
+  {
+    "name": "OneHope Wine",
+    "is_mlm": 0
+  },
+  {
+    "name": "Nest",
+    "is_mlm": 0
+  },
+  {
+    "name": "Forever Green",
+    "is_mlm": 1
+  },
+  {
+    "name": "K-Link International",
+    "is_mlm": 1
+  },
+  {
+    "name": "Northwestern Mutual",
+    "is_mlm": 0
+  },
+  {
+    "name": "eSpring",
+    "is_mlm": 1
+  },
+  {
+    "name": "NYR Organic",
+    "is_mlm": 1
+  },
+  {
+    "name": "Citrix",
+    "is_mlm": 0
+  },
+  {
+    "name": "Viridian Energy",
+    "is_mlm": 1
+  },
+  {
+    "name": "World Wide Dreamers",
+    "is_mlm": 1
+  },
+  {
+    "name": "Aspiranet Child & Family Services",
+    "is_mlm": 0
+  },
+  {
+    "name": "Network21",
+    "is_mlm": 1
+  },
+  {
+    "name": "Zija International",
+    "is_mlm": 1
+  },
+  {
+    "name": "Morinda, Inc.",
+    "is_mlm": 1
+  },
+  {
+    "name": "Conduent",
+    "is_mlm": 0
+  },
+  {
+    "name": "Asea Water",
+    "is_mlm": 1
+  },
+  {
+    "name": "eXp Realty",
+    "is_mlm": 1
+  },
+  {
+    "name": "Zeeks Rewards",
+    "is_mlm": 1
+  },
+  {
+    "name": "eBIZ ",
+    "is_mlm": 1
+  },
+  {
+    "name": "Viridian Energy",
+    "is_mlm": 1
+  },
+  {
+    "name": "Global Shopping Rewards",
+    "is_mlm": 1
+  },
+  {
+    "name": "Plus500",
+    "is_mlm": 0
+  },
+  {
+    "name": "World System Builder",
+    "is_mlm": 1
+  },
+  {
+    "name": "4life Research",
+    "is_mlm": 1
+  },
+  {
+    "name": "Digital Genius Labs",
+    "is_mlm": 1
+  },
+  {
+    "name": "Dose",
+    "is_mlm": 1
+  },
+  {
+    "name": "G&H",
+    "is_mlm": 1
+  },
+  {
+    "name": "Saje",
+    "is_mlm": 0
+  },
+  {
+    "name": "Rodan + Fields",
+    "is_mlm": 1
+  },
+  {
+    "name": "Jewelry Candles",
+    "is_mlm": 1
+  },
+  {
+    "name": "OneCoin",
+    "is_mlm": 1
+  },
+  {
+    "name": "Juice Plus",
+    "is_mlm": 1
+  },
+  {
+    "name": "My Lead System Pro, MLSP",
+    "is_mlm": 1
+  },
+  {
+    "name": "Initial Outfitters",
+    "is_mlm": 1
+  },
+  {
+    "name": "iCook",
+    "is_mlm": 1
+  },
+  {
+    "name": "Life Leadership",
+    "is_mlm": 1
+  },
+  {
+    "name": "LuLaRoe",
+    "is_mlm": 1
+  },
+  {
+    "name": "Young Living",
+    "is_mlm": 1
+  },
+  {
+    "name": "Poshmark",
+    "is_mlm": 0
+  },
+  {
+    "name": "Alticor",
+    "is_mlm": 1
+  },
+  {
+    "name": "One Coin",
+    "is_mlm": 1
+  },
+  {
+    "name": "First Command Financial",
+    "is_mlm": 0
+  },
+  {
+    "name": "Shrimp and Grits Kids",
+    "is_mlm": 1
+  },
+  {
+    "name": "Alex and Ani Jewelry",
+    "is_mlm": 0
+  },
+  {
+    "name": "Max International",
+    "is_mlm": 1
+  },
+  {
+    "name": "Megalodon Marketing",
+    "is_mlm": 0
+  },
+  {
+    "name": "Mary Kay",
+    "is_mlm": 1
+  },
+  {
+    "name": "Schnucks",
+    "is_mlm": 0
+  },
+  {
+    "name": "Zenergy",
+    "is_mlm": 0
+  },
+  {
+    "name": "Nature's Sunshine",
+    "is_mlm": 1
+  },
+  {
+    "name": "Pink Buffalo Boutique",
+    "is_mlm": 0
+  },
+  {
+    "name": "The Butterfly Campaign",
+    "is_mlm": 1
+  },
+  {
+    "name": "LifeVantage",
+    "is_mlm": 1
+  },
+  {
+    "name": "Lady Boss",
+    "is_mlm": 1
+  },
+  {
+    "name": "PlanNet Marketing",
+    "is_mlm": 1
+  },
+  {
+    "name": "Farmasi",
+    "is_mlm": 1
+  },
+  {
+    "name": "FITTEAM",
+    "is_mlm": 1
+  },
+  {
+    "name": "Maskcara Beauty",
+    "is_mlm": 1
+  },
+  {
+    "name": "Noonday Collection",
+    "is_mlm": 1
+  },
+  {
+    "name": "Worldventures",
+    "is_mlm": 1
+  },
+  {
+    "name": "Modere",
+    "is_mlm": 1
+  },
+  {
+    "name": "Stitch Fix",
+    "is_mlm": 0
+  },
+  {
+    "name": "Pure Essentials",
+    "is_mlm": 0
+  },
+  {
+    "name": "WineShop at Home",
+    "is_mlm": 1
+  },
+  {
+    "name": "Vivint",
+    "is_mlm": 0
+  },
+  {
+    "name": "MAIONE",
+    "is_mlm": 1
+  },
+  {
+    "name": "Fumee",
+    "is_mlm": 1
+  },
+  {
+    "name": "Pura Vida",
+    "is_mlm": 0
+  },
+  {
+    "name": "PROWIN",
+    "is_mlm": 0
+  },
+  {
+    "name": "Leadership Team Development",
+    "is_mlm": 1
+  },
+  {
+    "name": "It Works!",
+    "is_mlm": 1
+  },
+  {
+    "name": "The Happy Co.",
+    "is_mlm": 1
+  },
+  {
+    "name": "World Financial Group",
+    "is_mlm": 1
+  },
+  {
+    "name": "Student Works Management Program",
+    "is_mlm": 1
+  },
+  {
+    "name": "LivePURE",
+    "is_mlm": 1
+  },
+  {
+    "name": "Liv International",
+    "is_mlm": 1
+  },
+  {
+    "name": "Youngevity",
+    "is_mlm": 1
+  },
+  {
+    "name": "VIP Kid English Teachers",
+    "is_mlm": 0
+  },
+  {
+    "name": "Ambit Energy",
+    "is_mlm": 1
+  },
+  {
+    "name": "Premier Financial Alliance",
+    "is_mlm": 1
+  },
+  {
+    "name": "Inmotion Hosting",
+    "is_mlm": 0
+  },
+  {
+    "name": "Build A Bride",
+    "is_mlm": 1
+  },
+  {
+    "name": "Halliburton",
+    "is_mlm": 0
+  },
+  {
+    "name": "Kroger",
+    "is_mlm": 0
+  },
+  {
+    "name": "Changing the Future Outcome, CTFO",
+    "is_mlm": 1
+  },
+  {
+    "name": "PlanNet Marketing",
+    "is_mlm": 1
+  },
+  {
+    "name": "4Life Research",
+    "is_mlm": 1
+  },
+  {
+    "name": "Megalodon Marketing",
+    "is_mlm": 0
+  },
+  {
+    "name": "Morinda, Inc",
+    "is_mlm": 1
+  },
+  {
+    "name": "True Living",
+    "is_mlm": 0
+  },
+  {
+    "name": "Market America",
+    "is_mlm": 1
+  },
+  {
+    "name": "Legacy of Clean",
+    "is_mlm": 1
+  },
+  {
+    "name": "Max International ",
+    "is_mlm": 1
+  },
+  {
+    "name": "Allied Universal Security",
+    "is_mlm": 0
+  },
+  {
+    "name": "Nyx Cosmetics",
+    "is_mlm": 0
+  },
+  {
+    "name": "Paytren (Indonesia)",
+    "is_mlm": 1
+  },
+  {
+    "name": "Longaberger",
+    "is_mlm": 1
+  },
+  {
+    "name": "Go Sunless",
+    "is_mlm": 1
+  },
+  {
+    "name": "Avon",
+    "is_mlm": 1
+  },
+  {
+    "name": "PartyLite",
+    "is_mlm": 1
+  },
+  {
+    "name": "Rituals",
+    "is_mlm": 0
+  },
+  {
+    "name": "PHP Agency",
+    "is_mlm": 1
+  },
+  {
+    "name": "b:hip",
+    "is_mlm": 1
+  },
+  {
+    "name": "Lyconet",
+    "is_mlm": 1
+  },
+  {
+    "name": "Life Force International",
+    "is_mlm": 1
+  },
+  {
+    "name": "Fabick Cat",
+    "is_mlm": 0
+  },
+  {
+    "name": "Nutrimetics",
+    "is_mlm": 1
+  },
+  {
+    "name": "Atmosphere",
+    "is_mlm": 1
+  },
+  {
+    "name": "Workday",
+    "is_mlm": 0
+  },
+  {
+    "name": "ap40",
+    "is_mlm": 0
+  },
+  {
+    "name": "Gannett Co",
+    "is_mlm": 0
+  },
+  {
+    "name": "Artistry",
+    "is_mlm": 1
+  },
+  {
+    "name": "The Smart Circle",
+    "is_mlm": 1
+  },
+  {
+    "name": "Marshalls",
+    "is_mlm": 0
+  },
+  {
+    "name": "JR Watkins",
+    "is_mlm": 1
+  },
+  {
+    "name": "Lurella Cosmetics",
+    "is_mlm": 0
+  },
+  {
+    "name": "Grant Cardone ",
+    "is_mlm": 1
+  },
+  {
+    "name": "Clean Living International",
+    "is_mlm": 1
+  },
+  {
+    "name": "Healthstyle Emporium",
+    "is_mlm": 1
+  },
+  {
+    "name": "Royaltie",
+    "is_mlm": 1
+  },
+  {
+    "name": "Artistic Essentials Tri-Chem",
+    "is_mlm": 1
+  },
+  {
+    "name": "United Visionary",
+    "is_mlm": 1
+  },
+  {
+    "name": "Globallee",
+    "is_mlm": 1
+  },
+  {
+    "name": "Cobra Group",
+    "is_mlm": 1
+  },
+  {
+    "name": "Natura (Brazil)",
+    "is_mlm": 1
+  },
+  {
+    "name": "Hinode (Brazil)",
+    "is_mlm": 1
+  },
+  {
+    "name": "Bortolletto (Brazil)",
+    "is_mlm": 1
+  },
+  {
+    "name": "AloeVeritas",
+    "is_mlm": 1
+  },
+  {
+    "name": "Six Figure Mentors",
+    "is_mlm": 1
+  },
+  {
+    "name": "LIMU",
+    "is_mlm": 1
+  },
+  {
+    "name": "Jeunesse",
+    "is_mlm": 1
+  },
+  {
+    "name": "SES Penn",
+    "is_mlm": 1
+  },
+  {
+    "name": "Global Domains International - website.ws",
+    "is_mlm": 1
+  },
+  {
+    "name": "Hairstory",
+    "is_mlm": 1
+  },
+  {
+    "name": "Ziglar",
+    "is_mlm": 1
+  },
+  {
+    "name": "Optidee (Germany)",
+    "is_mlm": 1
+  },
+  {
+    "name": "Jemako (Germany)",
+    "is_mlm": 1
+  },
+  {
+    "name": "Swiss Just",
+    "is_mlm": 1
+  },
+  {
+    "name": "FM Group",
+    "is_mlm": 1
+  },
+  {
+    "name": "Oooh! Shiny Things",
+    "is_mlm": 1
+  },
+  {
+    "name": "Beyuna",
+    "is_mlm": 1
+  },
+  {
+    "name": "AO Scan",
+    "is_mlm": 1
+  },
+  {
+    "name": "Bizztrek (UK)",
+    "is_mlm": 1
+  },
+  {
+    "name": "Ph@tt",
+    "is_mlm": 1
+  },
+  {
+    "name": "PSA (Industrias Pugliese S. A)",
+    "is_mlm": 1
+  },
+  {
+    "name": "Elvacity",
+    "is_mlm": 1
+  },
+  {
+    "name": "Giglione-ackerman",
+    "is_mlm": 1
+  },
+  {
+    "name": "Fortis Enterprises",
+    "is_mlm": 1
+  },
+  {
+    "name": "E. Excel International",
+    "is_mlm": 1
+  },
+  {
+    "name": "Nework",
+    "is_mlmo:m},
+  {
+    "name": "",
+    "is_mlm": 1
+  },
+  {
+    "name": "Lavylites",
+    "is_mlm": 1
+  },
+  {
+    "name": "Chicago Marketing Inc.",
+    "is_mlm": 1
+  },
+  {
+    "name": "Edge of Concepts",
+    "is_mlm": 1
+  },
+  {
+    "name": "By Dzyne",
+    "is_mlm": 1
+  },
+  {
+    "name": "Monat",
+    "is_mlm": 1
+  },
+  {
+    "name": "Savvi",
+    "is_mlm": 1
+  },
+  {
+    "name": "Healy World",
+    "is_mlm": 1
+  },
+  {
+    "name": "Elomir",
+    "is_mlm": 1
+  },
+  {
+    "name": "Vasayo",
+    "is_mlm": 1
+  },
+  {
+    "name": "Seint",
+    "is_mlm": 1
+  },
+  {
+    "name": "Arbonne",
+    "is_mlm": 1
+  },
+  {
+    "name": "Zallevo",
+    "is_mlm": 1
+  },
+  {
+    "name": "Amway Global",
+    "is_mlm": 1
+  },
+  {
+    "name": "Pure Haven",
+    "is_mlm": 1
+  },
+  {
+    "name": "Pure Romance",
+    "is_mlm": 1
+  },
+  {
+    "name": "Purium",
+    "is_mlm": 1
+  },
+  {
+    "name": "PUREly",
+    "is_mlm": 1
+  },
+  {
+    "name": "Scentsy",
+    "is_mlm": 1
+  },
+  {
+    "name": "Thrive",
+    "is_mlm": 1
+  },
+  {
+    "name": "Beachbody",
+    "is_mlm": 1
+  },
+  {
+    "name": "Tupperware",
+    "is_mlm": 1
+  },
+  {
+    "name": "Younique",
+    "is_mlm": 1
+  },
+  {
+    "name": "Optavia",
+    "is_mlm": 1
+  },
+  {
+    "name": "Nu Skin Enterprises",
+    "is_mlm": 1
+  },
+  {
+    "name": "Melaleuca",
+    "is_mlm": 1
+  },
+  {
+    "name": "LipSense",
+    "is_mlm": 1
+  },
+  {
+    "name": "LegalShield",
+    "is_mlm": 1
+  },
+  {
+    "name": "Isagenix",
+    "is_mlm": 1
+  },
+  {
+    "name": "Norwex",
+    "is_mlm": 1
+  },
+  {
+    "name": "Pure Anada",
+    "is_mlm": 0
+  }
+]

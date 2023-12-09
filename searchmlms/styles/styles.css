@@ -1,0 +1,924 @@
+/*noinspection CssUnknownTarget*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+
+:root {
+    --sm-padding: 0.5rem;
+    --lg-padding: 1rem;
+    --larger-padding: 2rem;
+    --dark-color: #145699;
+    --light-color: #588cbf;
+    --lighter-color: #aacef2;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', Verdana, Tahoma, sans-serif;
+}
+
+body {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/***** Skip to search link *****/
+
+#skip-link {
+    background-color: #000;
+    border: #fff solid 4px;
+    color: #fff;
+    padding: var(--sm-padding);
+    position: absolute;
+    top: -9999px;
+}
+
+#skip-link:focus {
+    right: 90rem;
+    top: var(--lg-padding);
+}
+
+/***** Nav *****/
+
+#logo {
+    pointer-events: none;
+}
+
+#logo-link {
+    display: none;
+    pointer-events: none;
+}
+
+header {
+    letter-spacing: 0.06em;
+}
+
+header img {
+    pointer-events: none;
+    user-select: none;
+}
+
+nav {
+    background-color: var(--dark-color);
+    display: flex;
+    font-family: 'Bebas Neue', Verdana, Tahoma, sans-serif;
+    height: 8rem;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    gap: var(--lg-padding);
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    flex-basis: 15rem;
+    flex-shrink: 0;
+    line-height: 8rem;
+    transition: all .3s ease-in-out;
+}
+
+nav a {
+    color: #fff;
+    display: block;
+    font-size: 2em;
+    text-decoration: none;
+    user-select: none;
+    transition: all .3s ease-in-out;
+    white-space: nowrap;
+}
+
+nav a:hover {
+    color: var(--lighter-color);
+    text-decoration: none;
+}
+
+.active {
+    color: var(--lighter-color);
+}
+
+/***** Mobile nav *****/
+
+#nav-box:checked + label {
+    text-decoration: underline;
+}
+
+#nav-box,
+#nav-trigger {
+    display: none;
+}
+
+#nav-box:checked ~ #nav-collapse {
+    display: flex;
+}
+
+#nav-trigger {
+    color: #231f20;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    padding: var(--lg-padding);
+    text-align: center;
+}
+
+.mobile-home {
+    display: none;
+}
+
+/***** Login Page *****/
+
+#login,
+#signup {
+    display: grid;
+    justify-items: center;
+    margin: var(--larger-padding);
+}
+
+#login h1,
+#signup h1 {
+    font-size: 3rem;
+}
+
+#login form,
+#signup form {
+    font-size: var(--larger-padding);
+}
+
+#login form label {
+    display: block;
+}
+
+#signup-submit,
+#login-button {
+    background-color: var(--lighter-color);
+    border: var(--light-color);
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: .5rem
+}
+
+#signup-submit:hover,
+#login-button:hover {
+    color: var(--dark-color);
+}
+
+input {
+    border: solid 3px var(--dark-color);
+    border-radius: 10px;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    width: 18rem;
+}
+
+#new-login {
+
+}
+
+/***** Sign up Page *****/
+
+#signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#signup-submit {
+    margin: var(--lg-padding) 0;
+}
+
+#signup-link,
+#new-login {
+    color: var(--dark-color);
+}
+
+#signup-link:hover,
+#new-login:hover {
+    color: var(--light-color);
+}
+
+/***** Show Page *****/
+
+#welcome {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#welcome-details {
+    font-size: var(--larger-padding);
+    margin-left: 21rem;
+}
+
+/***** Home page MLM search *****/
+
+.search-bar {
+    background-color: var(--light-color);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    font-size: var(--larger-padding);
+    height: 20rem;
+    justify-content: center;
+    padding-top: var(--larger-padding);
+    position: relative;
+}
+
+.search-bar a {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-right: 1rem;
+}
+
+#mlm-search {
+    border-radius: 10px;
+    border: solid #fff;
+    box-sizing: border-box;
+    font: 3rem 'Roboto', cursive, Verdana, Tahoma, sans-serif;
+    margin: 8px 0;
+    padding: 5px 2px;
+    width: 20rem;
+}
+
+#main-h1 {
+    text-align: center;
+}
+
+.hero-fg {
+    z-index: 2;
+}
+
+.hero-bg {
+    z-index: 1;
+}
+
+.hero-bg img:nth-child(1) {
+    left: 1%;
+    opacity: 30%;
+    position: absolute;
+    top: 0;
+}
+
+.hero-bg img:nth-child(2) {
+    left: 30%;
+    opacity: 20%;
+    position: absolute;
+    top: 50%;
+}
+
+.hero-bg img:nth-child(3) {
+    left: 65%;
+    opacity: 50%;
+    position: absolute;
+    top: 0;
+}
+
+.hero-bg img:nth-child(4) {
+    left: 90%;
+    opacity: 60%;
+    position: absolute;
+    top: 30%;
+}
+
+.hero-bg img:nth-child(5) {
+    left: 10%;
+    opacity: 70%;
+    position: absolute;
+    top: 20%;
+}
+
+.hero-bg,
+.hero-fg {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.search-results {
+    text-align: center;
+}
+
+/***** Main Content *****/
+
+#main-content {
+    display: grid;
+    grid-template-columns: 45rem 25rem;
+    margin: var(--lg-padding);
+    justify-content: center;
+    column-gap: 16rem;
+}
+
+#main-content h2 {
+    font-size: 3rem;
+    margin-bottom: var(--larger-padding);
+}
+
+#main-content p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+#boss {
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(88, 88, 88);
+    grid-column: 2;
+    margin-top: var(--larger-padding);
+}
+
+/***** All MLMs *****/
+
+#forum-list {
+    font-size: var(--larger-padding);
+    list-style-type: none;
+    margin: var(--lg-padding) auto;
+    max-width: 80rem;
+    width: 100%;
+}
+
+#forum-h1,
+#mlm-forum-h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#forum-list h3 {
+    font-size: var(--larger-padding);
+    font-weight: bold;
+    color: var(--dark-color);
+    margin: .5rem 0;
+}
+
+.forum-links {
+    background-color: var(--lighter-color);
+    border: var(--dark-color) solid 5px;
+    border-radius: 10px;
+    margin: var(--lg-padding);
+    padding: var(--lg-padding);
+}
+
+.forum-links a,
+.home-mlm-link {
+    color: var(--dark-color);
+    font-size: var(--lg-padding);
+    transition: all .3s ease-in-out;
+}
+
+.forum-links a:hover,
+.home-mlm-link:hover {
+    color: #000;
+    transition: all .3s ease-in-out;
+}
+
+.forum-links a:nth-of-type(2) {
+    margin-left: var(--larger-padding);
+}
+
+#scroll-up {
+    background-color: var(--light-color); /* Set a background color */
+    border-radius: 10px; /* Rounded corners */
+    border: 5px solid var(--dark-color); /* Remove borders */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    color: #fff; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    font-size: 18px; /* Increase font size */
+    opacity: 0;
+    outline: none; /* Remove outline */
+    padding: 15px; /* Some padding */
+    position: fixed; /* Fixed/sticky position */
+    right: 30px; /* Place the button 30px from the right */
+    transition: opacity ease-in-out 200ms;
+    z-index: 99; /* Make sure it does not overlap */
+}
+
+#scroll-up:hover {
+    background-color: var(--dark-color);
+}
+
+/***** Forum Pages *****/
+
+#new-form span {
+    background-color: var(--light-color);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: var(--larger-padding);
+    padding: var(--lg-padding);
+}
+
+#new-form span:hover,
+#submit-button {
+    cursor: pointer;
+}
+
+#new-form form {
+    margin: 3rem;
+}
+
+#post-title,
+#post-body,
+#comment {
+    border: var(--light-color) solid 1px;
+    border-radius: 10px;
+    font: var(--lg-padding) 'Roboto', Verdana, Tahoma, sans-serif;
+}
+
+#submit-button {
+    background-color: var(--light-color);
+    border: var(--light-color) solid 1px;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: var(--lg-padding);
+    padding: .5rem;
+}
+
+#new-form input,
+#submit-button {
+    display: block;
+}
+
+.forum-posts {
+    margin: var(--lg-padding);
+}
+
+.replies {
+    background-color: var(--dark-color);
+    border-radius: 10px;
+    color: #fff;
+    padding: .5rem;
+}
+
+.replies:first-of-type {
+    display: inline-block;
+    margin-bottom: var(--lg-padding);
+}
+
+/***** Recent Posts *****/
+
+.posts-list {
+    font-size: var(--lg-padding);
+    margin: var(--lg-padding) auto;
+    max-width: 80rem;
+    width: 100%;
+}
+
+.posts-list article {
+    border: var(--light-color) 5px solid;
+    border-radius: 10px;
+    padding: var(--lg-padding);
+    margin: var(--lg-padding);
+}
+
+.recent-titles {
+    color: var(--light-color);
+}
+
+.recent-post {
+    font-style: italic;
+}
+
+.mlm-link {
+    color: var(--dark-color);
+}
+
+.view-comments {
+    background-color: var(--dark-color);
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    margin-top: var(--lg-padding);
+    padding: .5rem;
+    text-decoration: none;
+}
+
+#comment-form {
+    margin: var(--lg-padding);
+}
+
+#reply-heading {
+    color: var(--light-color);
+    margin: var(--lg-padding);
+}
+
+/***** Show page *****/
+
+.single-post {
+    margin: var(--lg-padding);
+}
+
+#comments span {
+    font-weight: bold;
+}
+
+.comment-and-reply-btn {
+    border: var(--light-color) 2px solid;
+    border-radius: 10px;
+    margin: var(--lg-padding);
+    max-width: 60rem;
+    padding: .5rem;
+}
+
+/***** Admin Nav *****/
+
+#admin-nav {
+    background-color: var(--light-color);
+    color: #fff;
+    display: flex;
+    height: 4rem;
+}
+
+#admin-nav ul {
+    align-items: center;
+}
+
+#admin-nav span {
+    margin: 23px 10px;
+}
+
+#admin-nav a {
+    color: var(--dark-color);
+}
+
+/*noinspection CssUnusedSymbol*/
+#admin-nav a.active {
+    color: var(--dark-color);
+}
+
+#admin-nav a:hover {
+    color: var(--light-color);
+}
+
+#admin-nav .dropbtn {
+    background-color: inherit;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: var(--larger-padding);
+    outline: none;
+    padding: 14px 16px;
+}
+
+.dropdown-content {
+    background-color: #f9f9f9;
+    border: var(--light-color) solid 3px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    z-index: 10;
+}
+
+.show {
+    display: block;
+}
+
+/***** Admin *****/
+
+.content {
+    margin-left: var(--larger-padding);
+}
+
+.list th,
+.content td,
+.user-edit {
+    padding-left: var(--lg-padding);
+}
+
+.list {
+    margin-bottom: var(--lg-padding);
+}
+
+#delete {
+    padding: var(--lg-padding);
+}
+
+.item {
+    font-weight: bold;
+}
+
+.admin-submit {
+    background-color: var(--lighter-color);
+    cursor: pointer;
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+.admin-tables {
+    background-color: var(--lighter-color);
+}
+
+.admin-tables td {
+    border: 3px solid var(--dark-color);
+    padding: .5rem;
+}
+
+#delete-mlm,
+#edit-mlm,
+#edit-post,
+#delete-post,
+#delete-user,
+#edit-user {
+    color: #000;
+}
+
+/***** New MLM *****/
+
+#new-mlm {
+    margin-left: var(--larger-padding);
+}
+
+#new-mlm input,
+.user-edit input {
+    margin-top: .5rem;
+}
+
+#mlm-yes,
+#mlm-no {
+    width: var(--larger-padding);
+}
+
+/***** Admin Edit Users *****/
+
+#user-level {
+    margin: .5rem 0;
+    width: 2.5rem;
+}
+
+/***** Footer *****/
+
+footer {
+    align-items: flex-end;
+    background-color: var(--light-color);
+    display: flex;
+    font-family: 'Bebas Neue', Verdana, Tahoma, sans-serif;
+    justify-content: space-between;
+    margin-top: auto;
+    padding: var(--lg-padding);
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    color: #000;
+    font-size: var(--larger-padding);
+    text-decoration: none;
+}
+
+footer a {
+    color: #000;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer p {
+    font-size: var(--lg-padding);
+}
+
+.footer-img {
+    align-self: center;
+}
+
+/***** Session messages *****/
+
+#session-message {
+    background-color: var(--light-color);
+    border-radius: 10px;
+    border: 3px solid var(--dark-color);
+    bottom: 20px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: var(--lg-padding);
+    position: fixed;
+    right: 30px;
+    transition: opacity ease-in-out 200ms;
+    z-index: 100;
+}
+
+#session-message i {
+    margin-left: var(--lg-padding);
+    padding: var(--sm-padding);
+    cursor: pointer;
+    transform-origin: center;
+    transition: all 1s;
+}
+
+#session-message i:hover {
+    transform: rotate(calc(360deg * 1));
+}
+
+/***** Error 404 *****/
+
+#not-found {
+    border: #145699 solid 5px;
+    border-radius: 10px;
+    margin: 5rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+/***** Media Queries *****/
+
+/***** 1892 *****/
+@media screen and (max-width: 1892px) {
+    #main-h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/***** 1765 *****/
+@media screen and (max-width: 1765px) {
+    #main-h1,
+    #mlm-search {
+        font-size: 2.5rem;
+    }
+}
+
+/***** 1722 *****/
+@media screen and (max-width: 1722px) {
+    #main-h1,
+    #mlm-search {
+        font-size: 2rem;
+    }
+
+    .search-bar {
+        height: 17rem;
+    }
+}
+
+/***** 1680 *****/
+@media screen and (max-width: 1680px) {
+    #main-h1 {
+        font-size: var(--larger-padding);
+    }
+
+    #mlm-search {
+        font-size: var(--larger-padding);
+        height: 3rem;
+    }
+}
+
+/***** 1428 *****/
+@media screen and (max-width: 1428px) {
+    #main-content {
+        display: grid;
+        grid-template-columns: 30rem 20rem;
+    }
+}
+
+/***** 1408 *****/
+@media screen and (max-width: 1408px) {
+    nav li {
+        flex-basis: 10rem;
+    }
+
+    nav li a {
+        padding: 0 var(--lg-padding);
+    }
+
+    #main-content {
+        column-gap: 16rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: var(--lg-padding);
+        width: 90%;
+    }
+
+    #boss {
+        display: none;
+    }
+}
+
+/***** 1312 *****/
+@media screen and (max-width: 1312px) {
+    .hero-bg {
+        display: none;
+    }
+}
+
+/***** 1100 *****/
+@media screen and (max-width: 1100px) {
+    nav a {
+        font-size: 1.5rem;
+    }
+}
+
+/***** 1062 *****/
+@media screen and (max-width: 1062px) {
+    nav li:nth-of-type(4) {
+        display: none;
+    }
+
+    nav li {
+        flex-basis: 8rem;
+    }
+
+    nav a {
+        font-size: 2.25rem;
+    }
+
+    #logo {
+        display: block;
+        margin: var(--lg-padding) var(--lg-padding);
+        height: 5rem;
+        width: 5rem;
+    }
+
+    #logo-link {
+        display: block;
+        pointer-events: all;
+    }
+}
+
+/***** 930 *****/
+@media screen and (max-width: 930px) {
+    nav a {
+        font-size: var(--larger-padding);
+    }
+}
+
+/***** 877 *****/
+@media screen and (max-width: 877px) {
+    nav a {
+        font-size: 1.5rem;
+    }
+}
+
+/***** 855 *****/
+/*put hamburger menu here*/
+@media screen and (max-width: 855px) {
+    #nav-trigger {
+        display: block;
+    }
+
+    #nav-collapse {
+        display: none;
+        flex-direction: column;
+    }
+
+    .mobile-home {
+        display: block;
+    }
+
+    nav {
+        height: fit-content;
+    }
+
+    nav ul {
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        display: block;
+        flex-basis: 5rem;
+        flex-shrink: 0;
+        line-height: 5rem;
+        transition: all .3s ease-in-out;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #logo,
+    #logo-link {
+        display: none;
+    }
+
+    footer {
+        align-items: center;
+        background-color: var(--light-color);
+        flex-direction: column;
+        margin-top: auto;
+        padding: var(--lg-padding);
+    }
+
+    footer ul {
+        order: -1;
+    }
+}
